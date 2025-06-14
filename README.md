@@ -4,6 +4,8 @@ This project is a frontend-only clone of Netflix’s sign-in page, built entirel
 
 ## How to run:-
 git clone https://github.com/Samiksha2-cloud/netflix-clone.git
+
 cd netflix-clone
+
 open index.html        
 
