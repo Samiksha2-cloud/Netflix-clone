@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+body {
+    font-family: arial,sans-serif;
+    /**background-color: rgb(62, 62, 62);**/
+    color: white;
+}
+.navbar {
+    height: 90px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/**header**/
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+
+    background-image: url("logo.svg");
+    height: 50px;
+    width: 150px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    margin-left: 25px;
+
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.language-select {
+    background-color: rgba(0,0, 0, 0.6);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 28px 8px 4px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 45px;
+    cursor: pointer;
+
+}
+/**hero-section**/
+.hero {
+    background-image: url(bg-images.jpg);
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0,0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    padding: 4px 0px;
+}
+
+/**hero-content**/
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.hero-content p {
+    font-size:1.5rem;
+}
+/**Email signup**/
+.email-signup {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.email-signup input {
+    padding: 15px;
+    background-color: rgba(0,0, 0, 0.6);
+    width: 60%;
+    color: white;
+    min-width: 250px;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+.email-signup button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+}
+/**section divider**/
+.section-divider {
+    height: 5px;
+    background-color: rgb(227, 51, 48);
+    margin-top: 0px;
+}
+/**trendings**/
+.trending-section {
+    background-color: #000;
+    padding: 40px 5%;
+    color: white;
+}
+
+.trending-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.movie-row {
+    position:relative;
+    display:flex;
+    align-items: center;
+}
+
+ .movie-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.movie-container img {
+    height: 450px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    
+}
+
+.movie-container img:hover{
+    transform: scale(1.1);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    font-size: 6%;
+    color: white;
+    background-color: rgba(0,0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.arrow.left {
+    left: 30px;
+}
+
+.arrow.right {
+    right: 30px;
+}
+
+/**features**/
+
+.feature-section {
+    background-color: black;
+    color: white;
+    padding: 60px 5%;
+    text-align: center;
+    
+}
+.feature-section h2 {
+    text-align: left;
+    font-size: 1.8rem;
+    margin-bottom: 25px ;
+}
+.feature-box {
+    background-color: rgb(1, 1, 35);
+    padding: 30px;
+    max-width: 1500px;
+    margin: 40px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(180, 178, 178, 0.1);
+    gap: 20px;
+}
+.feature-text {
+    max-width: 700px;
+    text-align:left;
+}
+.feature-text h1 {
+    color: rgb(247, 245, 245);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.feature-text p {
+    color: #959393;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+/**faq area**/
+
+.faq-section {
+    background-color: black;
+    color: white;
+    padding: 60px 5%;
+    text-align: left;
+}
+
+.faq-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.faq-box {
+    background-color: #2d2d2d;
+    padding: 20px 30px;
+    margin: 20px;
+    max-width: 1500px;
+    border-radius: 5px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.faq-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+/**email section**/
+
+.email-section {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.email-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.email-form input {
+    padding: 15px 20px;
+    font-size: 1rem;
+    width: 700px;
+    max-width: 100%;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.email-form button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/**footer**/
+.footer {
+    background-color: black;
+    color: #999;
+    padding: 40px 20px;
+    text-align: left;
+    border-spacing: 20px;
+}
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 20px 0;
+
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;  
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.language {
+   margin: 20px 0;
+   margin-left: 70px;
+}
+.language select {
+    background-color: #000;
+    color: #bcbaba;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.note {
+    margin-top: 10px;
+    margin-left: 70px;
+}
